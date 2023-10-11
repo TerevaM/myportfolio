@@ -1,0 +1,18 @@
+section {
+    overflow: hidden;
+}
+
+ul {
+    display: grid;
+    justify-content: space-evenly;
+    background-color: red;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    padding: 20px;
+}
+
+ul > li {
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+}
