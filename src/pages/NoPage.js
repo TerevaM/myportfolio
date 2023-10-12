@@ -5,9 +5,7 @@ import Projets from "../scenes/Projets/Projets";
 const Home = () => {
   return (
     <>
-      <Intro />
-      {/* <Presentation /> */}
-      <Projets />
+      <h1>Mauvaise page</h1>
     </>
   );
 };
