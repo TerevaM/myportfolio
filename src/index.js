@@ -2,16 +2,26 @@ import './index.css'
 import './scrollbar.css'
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import OpenAirConnect from "./pages/OpenAirConnect";
+import NoPage from "./pages/NoPage";
 
-import Intro from "./scenes/Intro/Intro";
-import Presentation from "./scenes/Presentation/Presentation"
-import Projets from './scenes/Projets/Projets';
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="openairconnect" element={<OpenAirConnect />} />
+          <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <Intro />
-    {/* <Presentation /> */}
-    <Projets />
+    <App />
   </>
 );

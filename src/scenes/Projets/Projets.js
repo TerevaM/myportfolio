@@ -1,11 +1,12 @@
 import "./Projets.css";
+import {Link} from "react-router-dom";
 function Projets() {
   return (
     <section>
       <h2>Mes projets</h2>
       <ul>
         <li>
-          <a href="https://www.openairconnect.com/">sasa</a>
+          <Link to="/openairconnect">OpenAirConnect</Link>
         </li>
         <li></li>
         <li></li>
