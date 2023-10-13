@@ -1,6 +1,6 @@
-import Intro from "../scenes/Intro/Intro";
+import Intro from "../components/Intro";
 // import Presentation from "../scenes/Presentation/Presentation";
-import Projets from "../scenes/Projets/Projets";
+import Projets from "../components/Projets";
 
 const Home = () => {
   return (

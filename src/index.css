@@ -12,14 +12,14 @@ body {
 }
 
 section {
-  height: 110vh;
+  min-height: 110vh;
   scroll-snap-align: start;
   scroll-snap-type: y mandatory;
 }
 
 /*Intro*/
 section:nth-child(1) {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('./services/pictures/Intro/forest.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/pictures/Intro/forest.jpg');
   background-position: center;
   background-size: cover;
 }

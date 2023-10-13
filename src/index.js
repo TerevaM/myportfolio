@@ -3,16 +3,16 @@ import './scrollbar.css'
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import OpenAirConnect from "./pages/OpenAirConnect";
-import NoPage from "./pages/NoPage";
+import Home from "./screens/Home";
+import GaleriePhoto from "./screens/GaleriePhoto";
+import NoPage from "./screens/NoPage";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path="openairconnect" element={<OpenAirConnect />} />
+          <Route path="galeriephoto" element={<GaleriePhoto />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
