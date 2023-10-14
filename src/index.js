@@ -5,6 +5,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import GaleriePhoto from "./screens/GaleriePhoto";
+import OpenAirConnect from "./screens/OpenAirConnect";
+import GreenDrive from "./screens/GreenDrive";
 import NoPage from "./screens/NoPage";
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="galeriephoto" element={<GaleriePhoto />} />
+          <Route path="openairconnect" element={<OpenAirConnect />} />
+          <Route path="greendrive" element={<GreenDrive />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

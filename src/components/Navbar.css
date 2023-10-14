@@ -1,0 +1,11 @@
+nav {
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    padding: 20px;
+    text-transform: uppercase;
+}

@@ -1,27 +1,33 @@
 import "./Projets.css";
-import {Link} from "react-router-dom";
+import Card from "./Card";
 function Projets() {
   return (
     <section>
-      <h2>Mes projets</h2>
+      <h2 id="projects">Mes projets</h2>
       <ul>
-        <li id="open_air_connect">
-          <Link to="https://www.openairconnect.com/" target="_blank">
-            <h3>OpenAirConnect</h3>
-          </Link>
-        </li>
-        <li id="galerie_photo">
-          <Link to="/galeriephoto">
-            <h3>Galerie Photo</h3>
-          </Link>
-        </li>
-        <li id="to_do_list">
-          <Link to="https://terevam.github.io/To_Do_List/" target="_blank">
-            <h3>To do List</h3>
-          </Link>
-        </li>
-        <li></li>
-        <li></li>
+        <Card
+          id="open_air_connect"
+          link="/openairconnect"
+          name="Open Air Connect"
+        />
+        <Card
+          id="green_drive"
+          link="/greendrive"
+          name="Green Drive"
+        />
+        <Card id="galerie_photo" link="/galeriephoto" name="Galerie Photo" />
+        <Card
+          id="to_do_list"
+          link="https://terevam.github.io/To_Do_List/"
+          target="_blank"
+          name="To Do List"
+        />
+        <Card
+          id="location_car"
+          link="https://terevam.github.io/Location_Car/"
+          target="_blank"
+          name="Location Car"
+        />
       </ul>
     </section>
   );
