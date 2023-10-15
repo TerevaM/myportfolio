@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.22c93ee0.css",
-    "main.js": "/myportfolio/static/js/main.77e00006.js",
-    "static/media/forest.jpg": "/myportfolio/static/media/forest.4cc6d50a459d8687f813.jpg",
-    "static/media/location_car.png": "/myportfolio/static/media/location_car.8a953074f7a4710c4dc9.png",
-    "static/media/green_drive.png": "/myportfolio/static/media/green_drive.3c4141a86099f585370d.png",
-    "static/media/openairconnect.png": "/myportfolio/static/media/openairconnect.b5fbcd51cf87b6849b6c.png",
-    "static/media/to-do-list.png": "/myportfolio/static/media/to-do-list.bdb9264bc67022f40857.png",
-    "index.html": "/myportfolio/index.html",
-    "main.22c93ee0.css.map": "/myportfolio/static/css/main.22c93ee0.css.map",
-    "main.77e00006.js.map": "/myportfolio/static/js/main.77e00006.js.map"
+    "main.css": "/static/css/main.34abb6ff.css",
+    "main.js": "/static/js/main.77e00006.js",
+    "static/media/forest.jpg": "/static/media/forest.4cc6d50a459d8687f813.jpg",
+    "static/media/location_car.png": "/static/media/location_car.8a953074f7a4710c4dc9.png",
+    "static/media/green_drive.png": "/static/media/green_drive.3c4141a86099f585370d.png",
+    "static/media/openairconnect.png": "/static/media/openairconnect.b5fbcd51cf87b6849b6c.png",
+    "static/media/to-do-list.png": "/static/media/to-do-list.bdb9264bc67022f40857.png",
+    "index.html": "/index.html",
+    "main.34abb6ff.css.map": "/static/css/main.34abb6ff.css.map",
+    "main.77e00006.js.map": "/static/js/main.77e00006.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c93ee0.css",
+    "static/css/main.34abb6ff.css",
     "static/js/main.77e00006.js"
   ]
 }
