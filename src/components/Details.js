@@ -1,6 +1,6 @@
 import "./Details.css";
 import Navbar from "./Navbar";
-import backgroundvideo from "../videos/openairconnect.mp4";
+// import backgroundvideo from "../videos/openairconnect.mp4";
 function Details(props) {
   return (
     <>

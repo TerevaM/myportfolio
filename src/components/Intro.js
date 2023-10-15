@@ -5,7 +5,7 @@ function Intro() {
     <section>
         <div id="title">
         <h1>
-            Tereva Millet<span>Developpeur web</span>
+            Tereva Milletxx<span>Developpeur web</span>
         </h1>
         </div>
         <div class="scroll_down">
