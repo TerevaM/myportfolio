@@ -78,7 +78,7 @@
 
 .scroll_down {
   position: absolute;
-  background-image: url("../../public/pictures/Intro/scrolldown.png");
+  background-image: url("../pictures/Intro/scrolldown.png");
   background-size: cover;
   height: 50px;
   width: 100px;

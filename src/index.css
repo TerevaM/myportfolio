@@ -10,6 +10,10 @@
   /* border: 1px dotted red; */
 }
 
+h4,p {
+  text-align: center ;
+}
+
 body {
   overflow-y: scroll;
 }
@@ -22,7 +26,7 @@ section {
 
 /*Intro*/
 section:nth-child(1) {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/pictures/Intro/forest.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('./pictures/Intro/forest.jpg');
   background-position: center;
   background-size: cover;
 }

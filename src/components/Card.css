@@ -1,16 +1,16 @@
-li {
+.card {
   border: 1px solid white;
   height: 200px;
   width: 300px;
   transition: all 0.2s;
 }
 
-li:hover {
+.card:hover {
   margin: 0 10px;
   box-shadow: -10px 0 0 white;
 }
 
-li > a {
+.card > a {
   position: relative;
   display: block;
   width: 100%;
@@ -28,21 +28,21 @@ h3 {
 }
 
 #to_do_list {
-  background-image: url("../../public/pictures/Projets/to-do-list.png");
+  background-image: url("../pictures/Projets/to-do-list.png");
   background-size: cover;
 }
 
 #open_air_connect {
-  background-image: url("../../public/pictures/Projets/openairconnect.png");
+  background-image: url("../pictures/Projets/openairconnect.png");
   background-size: cover;
 }
 
 #location_car {
-  background-image: url("../../public/pictures/Projets/location_car.png");
+  background-image: url("../pictures/Projets/location_car.png");
   background-size: cover;
 }
 
 #green_drive {
-  background-image: url("../../public/pictures/Projets/green_drive.png");
+  background-image: url("../pictures/Projets/green_drive.png");
   background-size: cover;
 }

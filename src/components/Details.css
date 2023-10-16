@@ -1,6 +1,20 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 body {
-  background: linear-gradient(0deg, rgba(1, 5, 9, 1) 20%, rgba(1, 3, 8, 1) 96%);
+  	background: linear-gradient(-45deg, #010409, #284447, #031127, #083045);
+	background-size: 400% 400%;
   min-height: 100vh;
+  animation: gradient 10s ease infinite;
 }
 
 h1 {
@@ -15,4 +29,62 @@ h1 {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+h5 {
+  text-align: center;
+  margin: 10px;
+}
+
+#visit_link {
+  background-color: rgb(161, 161, 161);
+  padding: 10px 20px;
+}
+
+#visit_link:hover {
+  background-color: rgb(107, 107, 107);
+}
+
+#techno_uses {
+  background-color: rgba(128, 128, 128, 0.507);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.cellules {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.language {
+  background-color: orange;
+}
+
+.api {
+  background-color: rgb(114, 197, 81);
+  color: white;
+}
+
+.default {
+  border: 1px solid white;
+}
+
+#stats > li {
+  text-align: center;
+}
+
+#pics {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 10px;
+}
+
+#pics > li {
+  width: 400px;
+}
+
+#pics > li > img {
+  width: 100%;
+  height: 100%;
 }

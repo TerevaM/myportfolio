@@ -7,6 +7,8 @@ import Home from "./screens/Home";
 import GaleriePhoto from "./screens/GaleriePhoto";
 import OpenAirConnect from "./screens/OpenAirConnect";
 import GreenDrive from "./screens/GreenDrive";
+import ToDoList from "./screens/ToDoList";
+import LocationCar from "./screens/LocationCar";
 import NoPage from "./screens/NoPage";
 
 export default function App() {
@@ -14,9 +16,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path="galeriephoto" element={<GaleriePhoto />} />
-          <Route path="openairconnect" element={<OpenAirConnect />} />
-          <Route path="greendrive" element={<GreenDrive />} />
+          <Route path="/galeriephoto" element={<GaleriePhoto />} />
+          <Route path="/openairconnect" element={<OpenAirConnect />} />
+          <Route path="/greendrive" element={<GreenDrive />} />
+          <Route path="/todolist" element={<ToDoList />} />
+          <Route path="/locationcar" element={<LocationCar />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

@@ -18,14 +18,12 @@ function Projets() {
         <Card id="galerie_photo" link="/galeriephoto" name="Galerie Photo" />
         <Card
           id="to_do_list"
-          link="https://terevam.github.io/To_Do_List/"
-          target="_blank"
+          link="/todolist"
           name="To Do List"
         />
         <Card
           id="location_car"
-          link="https://terevam.github.io/Location_Car/"
-          target="_blank"
+          link="/locationcar"
           name="Location Car"
         />
       </ul>
