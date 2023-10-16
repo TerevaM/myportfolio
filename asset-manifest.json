@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.bcfb85ca.css",
-    "main.js": "/myportfolio/static/js/main.61351840.js",
+    "main.js": "/myportfolio/static/js/main.2f6cef45.js",
     "static/media/forest.jpg": "/myportfolio/static/media/forest.4cc6d50a459d8687f813.jpg",
     "static/media/location_car.png": "/myportfolio/static/media/location_car.8a953074f7a4710c4dc9.png",
     "static/media/green_drive.png": "/myportfolio/static/media/green_drive.3c4141a86099f585370d.png",
@@ -12,10 +12,10 @@
     "static/media/to-do-list.png": "/myportfolio/static/media/to-do-list.bdb9264bc67022f40857.png",
     "index.html": "/myportfolio/index.html",
     "main.bcfb85ca.css.map": "/myportfolio/static/css/main.bcfb85ca.css.map",
-    "main.61351840.js.map": "/myportfolio/static/js/main.61351840.js.map"
+    "main.2f6cef45.js.map": "/myportfolio/static/js/main.2f6cef45.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfb85ca.css",
-    "static/js/main.61351840.js"
+    "static/js/main.2f6cef45.js"
   ]
 }
