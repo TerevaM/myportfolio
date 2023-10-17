@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43fcc2b8.css",
-    "main.js": "/static/js/main.3b07ec03.js",
+    "main.css": "/static/css/main.54e1c6ec.css",
+    "main.js": "/static/js/main.e51515e5.js",
     "static/media/forest.jpg": "/static/media/forest.4cc6d50a459d8687f813.jpg",
     "static/media/location_car.png": "/static/media/location_car.8a953074f7a4710c4dc9.png",
     "static/media/green_drive.png": "/static/media/green_drive.3c4141a86099f585370d.png",
@@ -11,11 +11,11 @@
     "static/media/greendrive4.png": "/static/media/greendrive4.225b216578ec127c6802.png",
     "static/media/to-do-list.png": "/static/media/to-do-list.bdb9264bc67022f40857.png",
     "index.html": "/index.html",
-    "main.43fcc2b8.css.map": "/static/css/main.43fcc2b8.css.map",
-    "main.3b07ec03.js.map": "/static/js/main.3b07ec03.js.map"
+    "main.54e1c6ec.css.map": "/static/css/main.54e1c6ec.css.map",
+    "main.e51515e5.js.map": "/static/js/main.e51515e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.43fcc2b8.css",
-    "static/js/main.3b07ec03.js"
+    "static/css/main.54e1c6ec.css",
+    "static/js/main.e51515e5.js"
   ]
 }
