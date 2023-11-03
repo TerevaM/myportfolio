@@ -1,12 +1,6 @@
 import "./Intro.css";
 function Intro() {
 
-  //state
-
-  //comportement
-
-  //render
-
   return (
     <section>
         <div id="title">

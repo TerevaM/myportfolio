@@ -1,9 +1,7 @@
+import Details from '../components/Details';
+
 const GaleriePhoto = () => {
-  return (
-    <>
-        <h1>T'es sur Galerie photo</h1>
-    </>
-  );
+  return <Details project_name="Galerie photo"/>;
 };
 
 export default GaleriePhoto;
