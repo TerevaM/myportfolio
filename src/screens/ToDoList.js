@@ -6,14 +6,14 @@ const ToDoList = () => {
     <>
       <Navbar />
       <Details
-        name="Green Drive"
-        desc="GreenDrive est un projet style Airbnb de location de voiture."
-        people="4"
-        responsive="Mobile, Pc"
-        url=""
-        languages={["Ruby on rails"]}
+        name="To do list"
+        desc="Exercice javascript d'une to do list"
+        people="1"
+        responsive="Pc"
+        url="https://terevam.github.io/To_Do_List/"
+        languages={["Javascript"]}
         apis={[]}
-        others={["flatpickr", "devise"]}
+        others={[]}
         pics={[pic]}
       />
     </>

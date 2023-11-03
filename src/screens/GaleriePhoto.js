@@ -7,7 +7,7 @@ const GaleriePhoto = () => {
     <Navbar />
     <Details
      name="Galerie Photo"
-     desc="Projet d'une galerie photo en ligne"
+     desc="Projet d'une galerie photo en ligne."
      people="1"
      url=""
      responsive="Mobile, Pc"

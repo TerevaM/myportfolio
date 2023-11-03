@@ -3,6 +3,12 @@ import "./Details.css";
 // import backgroundvideo from "../videos/openairconnect.mp4";
 function Details(props) {
   const showVisitLink = props.url !== "" ? true : false;
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  scrollToTop();
   return (
     <>
       <h1>{props.name}</h1>
@@ -47,7 +53,7 @@ function Details(props) {
       <ul id="pics">
         {props.pics.map((pic) => (
           <li>
-            <img src={pic} alt={pic}/>
+            <img src={pic} alt={pic} />
           </li>
         ))}
       </ul>

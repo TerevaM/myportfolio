@@ -7,13 +7,14 @@ const LocationCar = () => {
       <Navbar />
       <Details
         name="Location Car"
-        desc="Exercice front end d'un site de location de voiture"
-        people="4"
+        desc="Exercice front end d'un site de location de voiture."
+        people="1"
+        url="https://terevam.github.io/Location_Car/"
         responsive="Mobile, Pc"
         languages={["PHP"]}
         apis={[]}
-        others={["flatpickr", "devise"]}
-        pics={pic}
+        others={[]}
+        pics={[pic]}
       />
     </>
   );
