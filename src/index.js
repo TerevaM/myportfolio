@@ -10,6 +10,7 @@ import GreenDrive from "./screens/GreenDrive";
 import ToDoList from "./screens/ToDoList";
 import LocationCar from "./screens/LocationCar";
 import TwitchClone from "./screens/TwitchClone";
+import Calculatrice from "./screens/Calculatrice";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/greendrive" element={<GreenDrive />} />
         <Route path="/todolist" element={<ToDoList />} />
         <Route path="/locationcar" element={<LocationCar />} />
+        <Route path="/calculatrice" element={<Calculatrice />} />
         <Route path="/*" element={<Home />} />
       </Routes>
     </BrowserRouter>
