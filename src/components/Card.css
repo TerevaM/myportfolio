@@ -27,6 +27,33 @@ h3 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.mainlang {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 0 5px;
+  box-shadow: 2px 2px 1px #1f1f1f;
+}
+
+/* main lang color */
+#SvelteJS {
+  background-color: #FF3C00;
+}
+#NextJS {
+  background-color: #81D8D4;
+  text-shadow: 1px 1px 0 black;
+}
+#RubyOnRails {
+  background-color: #B10C00;
+}
+#JS {
+  background-color: #EFD81D;
+  text-shadow: 1px 1px 0 black;
+}
+#PHP {
+  background-color: #7377AD;
+}
+
 #to_do_list {
   background-image: url("../pictures/Projets/to-do-list.png");
   background-size: cover;
